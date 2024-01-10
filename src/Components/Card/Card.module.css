@@ -1,0 +1,74 @@
+.card {
+  position: relative;
+  width: 30rem;
+  height: 11rem;
+  background-color: #fff;
+  padding: 15px 15px 15px 20px;
+  text-align: left;
+  line-height: 25px;
+  box-shadow:
+    rgba(240, 46, 170, 0.4) -5px 5px,
+    rgba(240, 46, 170, 0.3) -10px 10px,
+    rgba(240, 46, 170, 0.2) -15px 15px,
+    rgba(240, 46, 170, 0.1) -20px 20px,
+    rgba(240, 46, 170, 0.05) -25px 25px;
+  border-radius: 10px;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
+  transition: all 0.3s ease-in-out;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+
+  & .headTxt {
+    text-transform: capitalize;
+
+    & h2 {
+      font-size: 20px;
+      padding-bottom: 8px;
+    }
+  }
+
+  & .data {
+    padding-left: 10px;
+    line-height: 23px;
+    font-family: cursive;
+  }
+
+  & .deleteBtn {
+    position: absolute;
+    top: 0px;
+    right: 0px;
+    background: #e70707;
+    width: 25px;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: #0000003b -2px 2px 10px 0px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    transition: all 0.3s ease-in-out;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    -ms-transition: all 0.3s ease-in-out;
+    -o-transition: all 0.3s ease-in-out;
+    &:hover {
+      background: #c40606;
+    }
+  }
+
+  &:hover {
+    transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    -moz-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -o-transform: scale(1.05);
+  }
+}
